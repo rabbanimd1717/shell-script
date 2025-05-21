@@ -8,4 +8,4 @@ echo "enter your password secretly: "
 
 read -s password
 
-echo "$username and $passwword wt u secretly enterd"
+echo "$username and $password wt u secretly enterd"
