@@ -3,7 +3,7 @@
 person1=mdr
 person2=ramjanbi
 
-echo "Rabbani: Hi Raina I'm Rabbani. Hope you are doing good"
-echo "Raina: Hello nice to meet you. Myself Raina"
-echo "Rabbani: am huge fan of you"
-echo "Raina: thanks, its my pleasure Rabbani"
+echo "$person1: Hi $person2 I'm $person1. Hope you are doing good"
+echo "$person2: Hello nice to meet you. Myself $person2"
+echo "$person1: am huge fan of you $person2"
+echo "$person1: thanks, its my pleasure $person1"
