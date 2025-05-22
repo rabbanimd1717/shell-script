@@ -18,7 +18,7 @@ fi
 dnf install mysql -y
 
 
-if [ $? -eq 0 ]
+if [ $? -ne 0 ]
 then
     echo "proceed to next command to execute"
     exit 1
