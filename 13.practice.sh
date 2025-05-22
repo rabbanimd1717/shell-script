@@ -10,6 +10,19 @@ else
     echo "this is super user proceed to install"
 fi
 
+
+#commands to execute with eixt or without exit to proceed
+
+
+
 dnf install mysql -y
+
+
+if [ $? -eq 0 ]
+then
+    echo "proceed to next command to execute"
+    exit 1
+else
+    echo "stop here"
 
 echo "if command failed proceed to this or not"
