@@ -8,6 +8,7 @@ then
      #proceed to execute the next commands
 else
     echo "this is super user proceed to install"
+    exit 0
 fi
 
 dnf install mysql -y
