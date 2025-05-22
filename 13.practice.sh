@@ -24,7 +24,7 @@ then
     exit 1
 else
     echo "stop here"
-    exit 1
+    exit 0
 fi
 
 echo "if command failed proceed to this or not"
