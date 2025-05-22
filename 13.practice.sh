@@ -34,5 +34,6 @@ then
     exit 1
 else
     echo "install git"
+fi
 
 echo "if command failed proceed to this or not"
