@@ -8,7 +8,7 @@ then
     exit 1
 else 
     echo "this is not superuser. just stop this command"
-    exit 0
+    exit 1
 fi
 
 
