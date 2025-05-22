@@ -2,7 +2,7 @@
 
 userid=$(id -u)
 
-if [$userid -eq 0]
+if [$userid -ne 0]
 then
     echo "proceed to run and this is sudo user"
 else 
