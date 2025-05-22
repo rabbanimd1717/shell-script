@@ -15,13 +15,12 @@ fi
 
 
 
-dnf install mysqll -y
+dnf install mysql -y
 
 
 if [ $? -eq 0 ]
 then
     echo "proceed to next command to execute"
-    exit 1
 else
     echo "stop here"
 fi
