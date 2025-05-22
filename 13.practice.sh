@@ -15,16 +15,24 @@ fi
 
 
 
-dnf install mysql -y
+dnf install mysqll -y
 
 
 if [ $? -eq 0 ]
 then
     echo "proceed to next command to execute"
-    exit 0
+    exit 1
 else
     echo "stop here"
-    exit 0
 fi
+
+dnf install git -y
+
+if [ $? -ne 0 ]
+then
+    echo "no need to install"
+    exit 1
+else
+    echo "install git"
 
 echo "if command failed proceed to this or not"
