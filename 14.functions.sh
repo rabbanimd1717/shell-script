@@ -20,6 +20,7 @@ new_fun(){
     else 
         echo "not installing command is failed"
         exit 1
+    fi
 
 }
 
