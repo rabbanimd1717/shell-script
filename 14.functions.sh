@@ -8,3 +8,5 @@ fun_name(){
 }
 
 fun_name
+PWD
+ls -la
