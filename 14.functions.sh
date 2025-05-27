@@ -13,9 +13,9 @@ ls -la
 
 
 new_fun(){
-    if [ $? -eq 0 ]
+    if [ $1 -eq 0 ]
     then 
-        echo "installing mysql"
+        echo "$2"
         exit 1
     else 
         echo "not installing command is failed"
