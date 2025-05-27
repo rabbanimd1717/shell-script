@@ -16,6 +16,7 @@ new_fun(){
     if [ $1 -eq 0 ]
     then 
         echo "$2"
+        exit 1
     else 
         echo "not installing command is failed"
         exit 1
@@ -23,7 +24,7 @@ new_fun(){
 
 }
 
-dnf install mysql
+dnf install mysqll
 
 new_fun $? "installing mysql"
 
