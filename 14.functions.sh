@@ -13,11 +13,18 @@ ls -la
 
 
 new_fun(){
-    echo "status: $1"
-    echo "what is installed: $2"
+    if [ $? -eq 0 ]
+    then 
+        echo "installing mysql"
+        exit 1
+    else 
+        echo "not installing command is failed"
+        exit 1
 
 }
 
 dnf install mysql
 
 new_fun $? "installing mysql"
+
+echo "failed no need to show this command"
