@@ -13,7 +13,8 @@ ls -la
 
 
 new_fun(){
-    echo "if command is execute then only proceed"
+    echo "status: $1"
+    echo "what is installed: $2"
 
 }
 
