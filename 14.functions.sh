@@ -20,4 +20,4 @@ new_fun(){
 
 dnf install mysql
 
-new_fun echo $? "installing mysql"
+new_fun $? "installing mysql"
