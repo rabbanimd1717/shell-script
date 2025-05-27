@@ -16,7 +16,6 @@ new_fun(){
     if [ $1 -eq 0 ]
     then 
         echo "$2"
-        exit 0
     else 
         echo "not installing command is failed"
         exit 1
