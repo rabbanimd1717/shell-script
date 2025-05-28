@@ -20,10 +20,10 @@ ls -la
 new_fun(){
     if [ $1 -eq 0 ]
     then 
-        echo "$2"
+        echo "$2 Success"
         exit 1
     else 
-        echo "not installing command is failed"
+        echo "$2 not installing command is failed"
         exit 1
     fi
 
