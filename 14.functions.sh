@@ -35,5 +35,5 @@ new_fun $? "installing mysql"
 
 dnf install git -y >> $Log_file
 
-new_fun $1 "installing git"
+new_fun $? "installing git"
 
