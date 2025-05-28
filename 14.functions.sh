@@ -33,4 +33,8 @@ dnf install mysql >> $Log_file
 
 new_fun $? "installing mysql"
 
-echo "failed no need to show this command"
+
+dnf install git -y >> $Log_file
+
+new_fun $1 "installing git"
+
