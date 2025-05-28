@@ -5,13 +5,17 @@ TIMESTAMP=$(date +%F-%H-%M-%S)
 SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
 LOG_FILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 
+red=\e[31m
+green=\e[32m
+yellow=\e[33m
+
 
 FUN_NAME(){
     if [ $1 -eq 0 ]
     then
-        echo "$2 is SUCCESS"
+        echo "$2 is $red SUCCESS"
     else
-        echo "$2 is Failure"
+        echo "$2 is $yellow Failure"
         exit 1
     fi
 }
