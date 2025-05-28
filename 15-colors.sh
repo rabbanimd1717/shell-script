@@ -8,7 +8,7 @@ FUN_NAME(){
         echo "$2 is SUCCESS"
     else
         echo "$2 is Failure"
-        exit
+        exit 1
     fi
 }
 
