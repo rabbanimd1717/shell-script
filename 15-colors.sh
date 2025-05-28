@@ -14,9 +14,9 @@ N="\e[0m"
 FUN_NAME(){
     if [ $1 -eq 0 ]
     then
-        echo "$2 is -e $red SUCCESS $N"
+        echo -e "$2 is $red SUCCESS $N"
     else
-        echo "$2 is -e $yellow Failure $N"
+        echo -e "$2 is $yellow Failure $N"
         exit 1
     fi
 }
