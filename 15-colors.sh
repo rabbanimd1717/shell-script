@@ -8,6 +8,7 @@ LOG_FILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 red="\e[31m"
 green="\e[32m"
 yellow="\e[33m"
+N="\e[0m"
 
 
 FUN_NAME(){
