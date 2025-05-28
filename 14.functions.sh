@@ -2,7 +2,7 @@
 
 Timestamp=$(date +%F-%H-%M-%S)
 script_name=$(echo $0 | cut -d "." -f2)
-Log_file=/tmp/$script_name-$Timestamp
+Log_file=/tmp/$script_name-$Timestamp.log
 
 
 fun_name(){
