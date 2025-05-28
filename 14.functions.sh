@@ -1,5 +1,10 @@
 #!/bin/bash
 
+Timestamp=$(date +%F-%H-%M-%S)
+script_name=$(echo $0 | cut -d "." -f2)
+Log_file=/tmp/$script_name-$Timestamp
+
+
 fun_name(){
     echo $PWD
     echo $HOME
@@ -24,7 +29,7 @@ new_fun(){
 
 }
 
-dnf install mysqll
+dnf install mysql >> $Log_file
 
 new_fun $? "installing mysql"
 
