@@ -6,9 +6,9 @@ FUN_NAME(){
     if [ $1 -eq 0 ]
     then
         echo "$2 is SUCCESS"
+        exit 1
     else
         echo "$2 is Failure"
-        exit 1
     fi
 }
 
