@@ -6,6 +6,6 @@ echo "current script: $user_code"
 
 echo "PID process of current script: $$"
 
-./otherscript.sh 
+./17.otherscript.sh 
 
 echo "after call the other script: $user_code"
